@@ -1,0 +1,175 @@
+body{
+	color:black;
+	overflow-x: hidden;
+}
+html{
+	scroll-behavior: smooth;
+}
+/*Headings -Home,about,products,contact*/
+.headings h1{
+	text-align: center;
+	color:black;
+	margin-bottom:20px;
+}
+
+
+/*home section css*/
+#carousel{
+	margin: 0;
+	padding: 0;
+}
+#home h1{
+     text-shadow: 4px 4px 8px #000000;
+     font-size: 55px;     
+}
+#home p{
+	font-size: 20px;
+	text-transform: uppercase;
+	padding: 30px;
+	
+}
+.fa-arrow-down{
+	padding: 30px;
+	size: 100px;
+}
+a{
+	color: white;
+}
+#home .jumbotron {
+    position: absolute;
+    z-index: 1;
+    width: 60%;
+    margin: 100px;
+    margin-top: 250px;
+    text-align: center;
+    background-color: transparent;
+    color:white;
+}
+
+
+/*nav-bar css*/
+.navbar-dark .navbar-nav .nav-link{
+	color: black;
+}
+.navbar-dark .navbar-brand{
+	color: black;
+}
+.scrolled{
+	background-color: #d50000;
+	transition: background 1s;
+	color: white;
+}
+
+
+/*empty spaces div css so that nav-bar dont cover them*/
+#about .space{
+height: 65px;
+}
+#products .space{
+height: 65px;
+}
+#contact .space{
+height: 65px;
+}
+
+
+/*about section css*/
+#about .container p{
+	color: white;
+}
+
+#ownerbg{
+	background-color: #d50000;
+}
+#about .container p{
+	color: black;
+}
+#about section{
+	margin:40px auto;
+}
+.card{
+	border:white;
+	box-shadow: 2px 5px 10px rgb(0,0,0);
+	transition: transform 1s;
+
+}
+.card:hover{
+	transform: scale(1.2,1.2);
+	box-shadow: 4px 4px 4px 2px rgba(0,0,0,0.5);
+
+}
+#owner{
+	background-color: white;
+	height: 40px;
+	width: 200px;
+    box-shadow: 2px 5px 10px rgb(0,0,0);
+    border-radius: 20%;
+    color: #d50000;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+#but1{
+	margin-bottom: 20px;
+}
+#but2{
+	margin-bottom: 20px;
+}
+
+
+/*products section css*/
+#products h3{
+	text-align: center;
+	color: #d50000;
+	font-weight: bold;
+}
+#products{
+	color: white
+}
+#products p, h2{
+	color:black;
+}
+.rectangle{
+	width: 100%;
+	height: 60px;
+	background-color: yellow;
+	margin: 50px 0;
+}
+.subhead{
+	margin-bottom: 30px;
+}
+
+
+/*contact section css*/
+#contact h4 i{
+	color: #d50000;
+	margin-right: 100px;
+}
+#contact h4{
+	margin:40px auto; 
+
+}
+#contact h3 i{
+	color:#d50000;
+}
+#contact h3{
+	margin-bottom: 60px;
+	text-align: center;
+}
+.fa-google-play{
+	margin-left:100px;
+	margin-bottom: 100px;
+	margin-right: 100px;
+
+}
+#contact a i{
+	color: black;
+}
+a:hover{
+	color: #d50000;
+}
+a.nav-link:hover{
+	background-color: white;
+	color: #d50000 !important;
+	font-weight: bold;
+}
