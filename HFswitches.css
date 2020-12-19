@@ -94,8 +94,13 @@ height: 65px;
 }
 .card{
 	border:white;
-	box-shadow: 2px 5px 10px rgb(0,0,0);
+	/*box-shadow: 2px 5px 10px rgb(0,0,0);*/
 	transition: transform 1s;
+	font-size: bold;
+	border-radius: 0;
+
+}
+.card p{
 	font-size: bold;
 }
 .card h4{
@@ -104,6 +109,8 @@ height: 65px;
 }
 .card img{
 	box-shadow: 2px 5px 10px rgb(0,0,0);
+	margin-bottom: 20px;
+
 
 }
 .card:hover{
