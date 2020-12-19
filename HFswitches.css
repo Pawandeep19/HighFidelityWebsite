@@ -1,10 +1,13 @@
+html,body{
+	overflow-x: hidden;
+}
 body{
 	color:black;
-	overflow-x: hidden;
 }
 html{
 	scroll-behavior: smooth;
 }
+
 /*Headings -Home,about,products,contact*/
 .headings h1{
 	text-align: center;
@@ -14,10 +17,6 @@ html{
 
 
 /*home section css*/
-/*#carousel{
-	margin: 0;
-	padding: 0;
-}*/
 #home h1{
      text-shadow: 4px 4px 8px #000000;
      font-size: 55px;     
@@ -35,11 +34,12 @@ html{
 a{
 	color: white;
 }
+a:hover{
+	color: #d50000;
+}
 #home .jumbotron {
     position: absolute;
     z-index: 1;
-    /*width: 60%;
-    margin: 100px;*/
     margin-top: 250px;
     text-align: center;
     background-color: transparent;
@@ -58,6 +58,11 @@ a{
 	background-color: #d50000;
 	transition: background 1s;
 	color: white;
+}
+a.nav-link:hover{
+	background-color: white;
+	color: #d50000 !important;
+	font-weight: bold;
 }
 
 
@@ -91,6 +96,14 @@ height: 65px;
 	border:white;
 	box-shadow: 2px 5px 10px rgb(0,0,0);
 	transition: transform 1s;
+	font-size: bold;
+}
+.card h4{
+	text-align: center;
+
+}
+.card img{
+	box-shadow: 2px 5px 10px rgb(0,0,0);
 
 }
 .card:hover{
@@ -156,20 +169,21 @@ height: 65px;
 	margin-bottom: 60px;
 	text-align: center;
 }
-.fa-google-play{
-	margin-left:100px;
+.fa-facebook{
 	margin-bottom: 100px;
 	margin-right: 100px;
-
 }
 #contact a i{
 	color: black;
 }
-a:hover{
-	color: #d50000;
+#contact .fab{
+	transition: transform 1s;
 }
-a.nav-link:hover{
-	background-color: white;
-	color: #d50000 !important;
-	font-weight: bold;
+#contact .fab:hover{
+	transform: scale(1.2,1.2);
+}#contact .fas{
+	transition: transform 1s;
+}
+#contact .fas:hover{
+	transform: scale(1.2,1.2);
 }
