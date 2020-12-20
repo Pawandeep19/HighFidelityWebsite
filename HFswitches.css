@@ -132,7 +132,8 @@ height: 65px;
 	height: 40px;
 	width: 200px;
     box-shadow: 2px 5px 10px rgb(0,0,0);
-    border-radius: 20%;
+    margin-top: 30px;
+    /*border-radius: 20%;*/
     color: #d50000;
     font-size: 30px;
     font-weight: bold;
