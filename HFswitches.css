@@ -13,6 +13,9 @@ html{
 	text-align: center;
 	color:black;
 	margin-bottom:20px;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 2px;
+
 }
 
 
@@ -40,10 +43,12 @@ a:hover{
 #home .jumbotron {
     position: absolute;
     z-index: 1;
-    margin-top: 250px;
+    margin-top: 220px;
     text-align: center;
     background-color: transparent;
     color:white;
+    font-family: 'Montserrat', sans-serif;
+	letter-spacing: 1px;
 }
 
 
@@ -102,9 +107,13 @@ height: 65px;
 }
 .card p{
 	font-size: bold;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 1px;
 }
 .card h4{
 	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 1px;
 
 }
 .card img{
@@ -128,6 +137,8 @@ height: 65px;
     font-size: 30px;
     font-weight: bold;
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
 }
 #but1{
 	margin-bottom: 20px;
@@ -154,9 +165,13 @@ height: 65px;
 	height: 60px;
 	background-color: yellow;
 	margin: 50px 0;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 1px;
 }
 .subhead{
 	margin-bottom: 30px;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 2px;
 }
 
 
